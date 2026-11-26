@@ -2,7 +2,9 @@
 
 `main.py` publishes `entry.png` as the entry image. It copies the file byte
 for byte into `MAKEFUN_OUTPUT_DIR` (default `/output`), creating the directory
-if needed, and checks that the copy is identical and non-empty.
+if needed, then prints the output path and the number of bytes written. It
+checks that the copy is non-empty and byte-identical to the source, and exits
+non-zero with a clear error if the source is missing or either check fails.
 
 Run it locally:
 
