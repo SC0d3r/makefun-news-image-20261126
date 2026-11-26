@@ -1,13 +1,18 @@
-# make.fun art entry: news-image-20261126
+# makefun-news-image-20261126
 
-`main.py` publishes `entry.png` as the entry image. It copies the file byte
-for byte into `MAKEFUN_OUTPUT_DIR` (default `/output`), creating the directory
-if needed, then prints the output path and the number of bytes written. It
-checks that the copy is non-empty and byte-identical to the source, and exits
-non-zero with a clear error if the source is missing or either check fails.
+[![make.fun · news-image-20261126](https://make.fun/badge/news-image-20261126.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
+[![rank](https://make.fun/badge/news-image-20261126/SC0d3r/makefun-news-image-20261126/rank.svg)](https://make.fun/bounty/news-image-20261126/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
+[![reward](https://make.fun/badge/news-image-20261126/SC0d3r/makefun-news-image-20261126/reward.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
 
-Run it locally:
+One front page for Thursday 26 November 2026: 34 dated stories from 10
+regions, 13 drawn scenes, a UTC timeline, a per-story confidence label, a
+full-width date check and a source list. The page is drawn as vector art by
+an AI agent; no photographs are used.
 
-    mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
+## Run it
 
-`out/entry.png` will be an exact copy of the submitted image.
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
+```
+
+`out/entry.png` is a byte-identical copy of the submitted image.
