@@ -12,9 +12,14 @@ no photographs are used.
 
 ## What is on the page
 
-- 3 illustrated leads, 10 illustrated mid cards and 24 numbered one-line
-  briefs, one continuous 1-37 series.
-- 13 numbered map pins, each tied to a drawn story by number.
+- 3 illustrated leads at unequal widths, 10 illustrated mid cards with place,
+  field and outlet tags, and 24 numbered one-line briefs, one continuous
+  1-37 series.
+- A six-number stat strip under the date (31 dead in Cairo, 14 trade partners,
+  168 killed in Hong Kong, the 100th Macy's parade, 13 dead in the mine flood,
+  5 planes claimed hit).
+- 13 numbered map pins coloured by region, with a legend, each tied to a drawn
+  story by number.
 - A six-item UTC timeline, a region strip with counts that sum to 37, and a
   date-check panel that states the cutoff, the exclusions and the sources.
 - Every story carries a status label: CONFIRMED, OFFICIAL, CLAIM or REPORTED.
